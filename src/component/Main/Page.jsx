@@ -7,7 +7,7 @@ import RightMain from './RightMain'
 import LeftMain from './LeftMain'
 
 
-const mainpage = () => {
+const Page = () => {
     return (
         <div className='flex flex-col lg:flex-row h-[80vh]' >
             <LeftMain />
@@ -17,4 +17,4 @@ const mainpage = () => {
     )
 }
 
-export default mainpage
+export default Page
